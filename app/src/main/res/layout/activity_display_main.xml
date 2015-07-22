@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        tools:context=".MainActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <android.support.v4.view.PagerTabStrip
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#008FBF"
+
+
+            android:id="@+id/tab_strip"
+            android:focusableInTouchMode="false">
+
+
+
+        </android.support.v4.view.PagerTabStrip>
+
+
+    </android.support.v4.view.ViewPager>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/log_in_fragment"
+        android:name="com.example.sebastian.experience22.LogInFragment"
+        tools:layout="@layout/log_in_fragment" android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"/>
+    <FrameLayout
+        android:id="@+id/sign_in_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

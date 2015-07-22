@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.example.sebastian.experience22.view.SlidingRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7c7c7c">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="retrieveSampleData"
+                android:text="@string/sign_in" />
+
+            <Button
+                android:id="@+id/bn_cancel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clearControls"
+                android:text="@string/cancel"
+                android:layout_column="2" />
+
+        </TableRow>
+    </TableLayout>
+</com.example.sebastian.experience22.view.SlidingRelativeLayout>

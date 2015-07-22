@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Experience2.2</string>
+    <string name="app_id">1453992021591286</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Register</string>
+    <string name="id">Id</string>
+    <string name="country">Country</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birth_day">Birth date</string>
+
+    <string name="sign_in_btn">Sign in with Email</string>
+    <string name="title_activity_first_time_sign_in">FirstTimeSignInActivity</string>
+
+    <string name="title_activity_nav__drawer__main">Nav_Drawer_Main</string>
+
+    <string name="Inbox">Inbox</string>
+    <string name="Starred">Starred</string>
+    <string name="Sent_mail">Sent mail</string>
+    <string name="Drafts">Email</string>
+    <string name="Settings">Sign In</string>
+    <string name="Help_and_feedback">Cancel</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_prueva_hola">PruevaHola</string>
+</resources>
